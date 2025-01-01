@@ -21,6 +21,9 @@ const userSchema = mongoose.Schema({
     profileImg:{
         type:String,
     },
+    profileImageId:{
+        type:String,
+    },
     createdAt:{
         type:Date,
         default:Date.now,

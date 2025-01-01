@@ -18,6 +18,7 @@ const quizSchema = mongoose.Schema({
             correctOption: { type: String, required: true },
             explanation: { type: String },
             questionImg: { type: String },
+            questionImgId:{type:String},
         },
     ],
     createdAt: { type: Date, default: Date.now },
